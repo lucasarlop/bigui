@@ -53,6 +53,10 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  # The :api is set when 'config.api_only' is true
+  # To render HTML with debugging information set to :default
+  # config.debug_exception_response_format = :default
+
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
