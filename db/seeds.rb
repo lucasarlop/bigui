@@ -5,3 +5,24 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Pet.create([
+    {
+        name:   Faker::Creature::Dog.name,
+        breed:  Faker::Creature::Dog.breed,
+        gender: Faker::Creature::Dog.gender,
+        size:   Faker::Creature::Dog.size
+    },
+    {
+        name:   Faker::Creature::Dog.name,
+        breed:  Faker::Creature::Dog.breed,
+        gender: Faker::Creature::Dog.gender,
+        size:   Faker::Creature::Dog.size
+    },
+    {
+        name:   Faker::Creature::Dog.name,
+        breed:  Faker::Creature::Dog.breed,
+        gender: Faker::Creature::Dog.gender,
+        size:   Faker::Creature::Dog.size
+    }
+])
